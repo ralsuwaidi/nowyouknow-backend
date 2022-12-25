@@ -1,0 +1,76 @@
+{
+  "kind": "collectionType",
+  "collectionName": "movies",
+  "info": {
+    "singularName": "movie",
+    "pluralName": "movies",
+    "displayName": "Movie",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "poster": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "violence_rating": {
+      "type": "integer",
+      "required": true
+    },
+    "language_rating": {
+      "type": "integer",
+      "required": true
+    },
+    "summary": {
+      "type": "richtext",
+      "required": true
+    },
+    "violence": {
+      "type": "richtext",
+      "required": true
+    },
+    "language": {
+      "type": "richtext",
+      "required": true
+    },
+    "inappropriate": {
+      "type": "richtext",
+      "required": true
+    },
+    "religious_imagery": {
+      "type": "richtext",
+      "required": true
+    },
+    "year": {
+      "type": "integer",
+      "required": true
+    },
+    "rating": {
+      "type": "string",
+      "required": true
+    },
+    "duration": {
+      "type": "string",
+      "required": true
+    },
+    "inappropriate_rating": {
+      "type": "integer",
+      "required": true
+    },
+    "drug_usage": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

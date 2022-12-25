@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * book service
+ * movie service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::book.book');
+module.exports = createCoreService('api::movie.movie');
